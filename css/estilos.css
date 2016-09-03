@@ -1,0 +1,504 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #91E9B6;
+	background-image: url(../imagenes/fondo.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
+.contenedora {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.encabezado {
+	width: 980px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.logo {
+	float: left;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+.facebook {
+	float: right;
+	margin-right: 10px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+.slogan {
+	width: 180px;
+	float: right;
+	margin-right: 20px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+p {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	padding-bottom: 10px;
+	color: #000;
+}
+
+.slogan p {
+	font-family: "shadows Into Light Two";
+	font-size: 22px;
+	color: #FFF;
+}
+
+.menu {
+	width: 650px;
+	float: right;
+	background-repeat: no-repeat;
+	margin-top: 80px;
+	padding-bottom: 15px;
+}
+
+.menu ul li {
+	font-family: 'Shadows Into Light Two', "cursive;";
+	font-size: 24px;
+	list-style-type: none;
+	display: inline;
+	color: #FFF;
+	margin-left: 35px;
+	
+}
+.menu ul li a {
+	color: #FFF;
+	text-decoration: none;
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+
+}
+.menu ul li a:hover {
+	font-weight: bold;
+	color: #FFFFFF;
+	text-shadow: -1px 1px 5px #fff, 1px -1px 5px #fff;
+	
+}
+
+.linea {
+	float: left;
+}
+
+.bloqueo {
+	clear: both;
+}
+
+.contenido {
+	background-color: #85DBB6;
+	padding-bottom: 40px;
+	background-image: url(../imagenes/fondo_contenido.png);
+	background-repeat: repeat-y;
+	background-position: center;
+}
+
+.slider {
+	margin-right: auto;
+	margin-left: auto;
+	width: 1200px;
+}
+
+.pie {
+	background-image: url(../imagenes/fondo_pie.png);
+	height: 95px;
+	text-align: center;
+	background-repeat: no-repeat;
+	padding-top: 40px;
+	background-position: center;
+	margin-top: -4px;
+}
+
+.pie ul li {
+	font-family: 'Shadows Into Light Two', "cursive;";
+	font-size: 18px;
+	list-style-type: none;
+	display: inline;
+	color: #FFF;
+	font-weight: bold;
+	float: right;
+	margin-right: 100px;
+}
+
+.pie ul li a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.blick {
+	float: left;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+
+h1 {
+	font-size: 25px;
+	color: #91E9B6;
+	padding-bottom: 15px;
+	font-family: "shadows Into Light Two";
+	text-align: center;
+}
+
+.parrafo {
+	width: 500px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #000;
+	padding: 10px;
+	margin-top: 40px;
+	text-align: center;
+	float: left;
+	margin-left: 80px;
+}
+
+.parrafo p {
+	font-size: 16px;
+	color: #000;
+	padding-bottom: 10px;
+	padding-top: 5px;
+}
+
+.lamparita {
+	float: left;
+	margin-top: 80px;
+	margin-left: 90px;
+}
+
+.lamparita a.ideas {
+	background-image: url(../imagenes/ideas.png);
+	height: 155px;
+	width: 155px;
+	background-repeat: no-repeat;
+	float: left;
+	position: relative;
+	right: 160px;
+	top: -28px;
+}
+
+.lamparita a.ideas:hover {
+	background-image: url(../imagenes/ideas2.png);
+	background-repeat: no-repeat;
+}
+
+.formulario {
+	width: 500px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #000;
+	float: left;
+	margin-left: 300px;
+	margin-top: -279px;
+}
+
+.formulario p {
+	font-family: "shadows Into Light Two";
+	font-size: 18px;
+	margin-bottom: 5px;
+	margin-top: 15px;
+}
+
+.campo_de_texto {
+	width: 350px;
+	height: 30px;
+	border: 2px dashed #91E9B6;
+	background-color: #CFFFBF;
+	background-repeat: repeat;
+	font-family: "shadows Into Light Two";
+	font-size: 16px;
+	color: #000;
+}
+
+.area_de_texto {
+	height: 100px;
+	width: 400px;
+	border: 2px dashed #91E9B6;
+	background-color: #CFFFBF;
+	background-repeat: repeat;
+	font-family: "shadows Into Light Two";
+	font-size: 16px;
+	color: #000;
+}
+
+.sitios a.consultech {
+	background-image: url(../imagenes/consultech1.jpg);
+	height: 150px;
+	width: 225px;
+	float: left;
+}
+
+.enviar {
+	font-family: "shadows Into Light Two";
+	color: #FFF;
+	background-color: #91E9B6;
+	font-size: 20px;
+	margin-top: 30px;
+	margin-left: 400px;
+	width: 100px;
+}
+
+.linea_contenido {
+	float: left;
+	margin-top: -20px;
+	margin-left: 2px;
+}
+
+.servicios {
+	width: 920px;
+	height: 380px;
+	float: left;
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+.servicios  a.websites{
+	background-image: url(../imagenes/websites.jpg);
+	background-repeat: no-repeat;
+	float: left;
+	height: 369px;
+	width: 468px;
+	margin-left: 40px;
+}
+
+.servicios a.websites:hover {
+	background-image: url(../imagenes/websites2.jpg);
+	background-repeat: no-repeat;
+}
+
+.servicios a.dominios {
+	background-image: url(../imagenes/dominios.jpg);
+	background-repeat: no-repeat;
+	float: left;
+	height: 253px;
+	width: 253px;
+	margin-top: 60px;
+	margin-left: 60px;
+}
+
+.servicios a.dominios:hover {
+	background-image: url(../imagenes/dominios2.jpg);
+	background-repeat: no-repeat;
+}
+
+.servicios2 {
+	width: 940px;
+	height: 380px;
+	float: left;
+	margin-left: 20px;
+}
+
+.servicios2 a.analitycs {
+	background-image: url(../imagenes/analitycs.jpg);
+	background-repeat: no-repeat;
+	float: left;
+	width: 253px;
+	height: 253px;
+	margin-left: 20px;
+	margin-top: 80px;
+}
+
+.servicios2 a.analitycs:hover {
+	background-image: url(../imagenes/analitycs2.jpg);
+	background-repeat: no-repeat;
+}
+
+.servicios2 a.hosting {
+	background-image: url(../imagenes/hosting.jpg);
+	background-repeat: no-repeat;
+	float: left;
+	width: 253px;
+	height: 253px;
+	margin-left: 38px;
+	margin-top: 80px;
+}
+
+.servicios2 a.hosting:hover {
+	background-image: url(../imagenes/hosting2.jpg);
+	background-repeat: no-repeat;
+}
+
+.servicios2 a.posicionamiento {
+	background-image: url(../imagenes/posicionamiento.jpg);
+	background-repeat: no-repeat;
+	float: left;
+	width: 253px;
+	height: 298px;
+	margin-left: 60px;
+	margin-top: 35px;
+}
+
+.servicios2 a.posicionamiento:hover {
+	background-image: url(../imagenes/posicionamiento2.jpg);
+	background-repeat: no-repeat;
+}
+
+.servicios2 a.mantenimiento {
+	background-image: url(../imagenes/mantenimiento.jpg);
+	background-repeat: no-repeat;
+	float: left;
+	height: 253px;
+	width: 253px;
+	margin-left: 20px;
+}
+
+.servicios2 a.mantenimiento:hover {
+	background-image: url(../imagenes/mantenimiento2.jpg);
+	background-repeat: no-repeat;
+}
+
+.servicios2 a.tecnologia {
+	background-image: url(../imagenes/tecnologia.jpg);
+	background-repeat: no-repeat;
+	float: left;
+	height: 358px;
+	width: 287px;
+	margin-left: 20px;
+}
+
+.servicios2 a.tecnologia:hover {
+	background-image: url(../imagenes/tecnologia2.jpg);
+	background-repeat: no-repeat;
+}
+
+.servicios2 a.rrpp {
+	background-image: url(../imagenes/rrpp.jpg);
+	background-repeat: no-repeat;
+	float: left;
+	height: 253px;
+	width: 328px;
+	margin-left: 20px;
+}
+
+.servicios2 a.rrpp:hover {
+	background-image: url(../imagenes/rrpp2.jpg);
+	background-repeat: no-repeat;
+}
+
+.aboutus {
+	width: 470px;
+	text-align: center;
+	float: left;
+	margin-left: 60px;
+	padding-top: 40px;
+}
+
+.aboutus p {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+.team {
+	position: relative;
+	top: 130px;
+	left: 66px;
+	float: left;
+}
+
+.sobre_abierto {
+	position: relative;
+	top: -86px;
+	left: 770px;
+	
+}
+
+.sobres {
+	position: relative;
+	top: 106px;
+	right: 367px;
+}
+
+.ruedas {
+	float: left;
+	margin-top: 20px;
+	margin-left: 40px;
+}
+
+.flecha {
+	margin-top: 20px;
+	margin-left: 250px;
+}
+
+.pintor {
+	float: left;
+	margin-top: 50px;
+	margin-left: 80px;
+}
+
+.enviado {
+	width: 500px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #000;
+	float: left;
+	margin-left: 230px;
+	margin-top: -290px;
+}
+
+.portfoliotexto {
+	width: 200px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #000;
+	padding: 10px;
+	margin-top: 40px;
+	text-align: center;
+	float: left;
+	margin-left: 400px;
+}
+
+.portfolio a.estandarq {
+	background-image: url(../imagenes/estandarq.jpg);
+	background-repeat: no-repeat;
+	float: left;
+	height: 328px;
+	width: 432px;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.portfolio a.estandarq:hover {
+	background-image: url(../imagenes/estandarq.hover.jpg);
+	background-repeat: no-repeat;
+}
+
+
+.portfolio a.consultech {
+	background-image: url(../imagenes/consultech.jpg);
+	background-repeat: no-repeat;
+	float: right;
+	height: 328px;
+	width: 432px;
+	margin-right: 50px;
+	margin-top: 30px;
+}
+
+.portfolio a.consultech:hover {
+	background-image: url(../imagenes/consultech.hover.jpg);
+	background-repeat: no-repeat;
+}
+.computadora {
+	float: right;
+	margin-right: 70px;
+	margin-top: -94px;
+}
